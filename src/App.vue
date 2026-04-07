@@ -7,10 +7,10 @@ import ActionIcons from './components/ActionIcons.vue'
 import Toast from './components/Toast.vue'
 
 const profile = reactive({
-  name: 'NullOnRise',
+  name: 'hxgohxrr',
   subtitle: 'Spanish Developer and Producer',
   location: 'Spain',
-  handle: 'NullOnRise',
+  handle: 'hxgohxrr',
   status: 'Developing a better world, one line of code at a time.',
   skills: [
     'Vue',
@@ -28,8 +28,8 @@ const profile = reactive({
     'Godot Engine',
   ],
   email: 'me@nullonrise.dev',
-  githubUrl: 'https://github.com/NullOnRise',
-  discord: 'nullonrise',
+  githubUrl: 'https://github.com/hxgohxrr',
+  discord: 'hxgohxrr',
   discordUrl: '',
   avatarUrl: '/img/profile.png',
   bgAudioUrl: '/audio/bg.mp3',
@@ -40,43 +40,29 @@ const projects = ref([
     title: 'Rise Logger',
     description: 'Lightweight logging library for Node.js.',
     imageUrl: '/projects/proj1.png',
-    url: 'https://github.com/NullOnRise/Rise-Logger',
+    url: 'https://github.com/hxgohxrr/Rise-Logger',
     tags: ['Node.js', 'Logging', 'Library', 'Open Source', 'TypeScript'],
   },
   {
     title: 'Simple Youtube Downloader',
     description: 'Application to download YouTube videos as MP3 or MP4.',
     imageUrl: '/projects/proj2.png',
-    url: 'https://github.com/NullOnRise/Simple-Youtube-Downloader',
+    url: 'https://github.com/hxgohxrr/Simple-Youtube-Downloader',
     tags: ['Node.js', 'YouTube', 'Downloader', 'Open Source', 'TypeScript'],
   },
   {
     title: 'Eternal Christmas Mod',
     description: 'A mod that brings Christmas vibes all year round in Minecraft.',
     imageUrl: '/projects/proj3.png',
-    url: 'https://github.com/NullOnRise/EternalChristmas',
+    url: 'https://github.com/hxgohxrr/EternalChristmas',
     tags: ['Minecraft', 'Modding', 'Java', 'Open Source'],
   },
   {
     title: 'Yugen Interactive',
     description: 'Indie Game Studio based in Spain.',
     imageUrl: '/projects/proj4.png',
-    url: 'https://yugeninteractive.itch.io/',
+    url: 'https://store.steampowered.com/developer/yugeninteractive',
     tags: ['Game Development', 'Indie Games', 'Godot Engine'],
-  },
-  {
-    title: 'Void State',
-    description: 'Streetwear oldmoney brand with a rich aesthetic.',
-    imageUrl: '/projects/proj5.png',
-    url: 'https://www.instagram.com/voidstateworldwide/',
-    tags: ['Fashion', 'Streetwear', 'Branding'],
-  },
-  {
-    title: 'Lated.app',
-    description: 'AI-powered productivity app to manage tasks and deadlines.',
-    imageUrl: '/projects/proj6.png',
-    url: 'https://lated.app/',
-    tags: ['Productivity', 'AI', 'App Development'],
   },
 ])
 
